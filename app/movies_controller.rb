@@ -69,7 +69,7 @@ def can_be_found_updated_and_saved
   Movie.create(title: "Awesome Flick")
   flick = Movie.find_by(title: "Awesome Flick")
   binding.pry
-  flick.update (:title => "Even Awesomer Flick")
+#  flick.update (:title => "Even Awesomer Flick")
   flick
 end
 
